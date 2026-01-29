@@ -17,6 +17,7 @@ ANSWER MUST CONTAIN ALL SECTIONS BELOW
    - No jargon unless explained.
 
 2. Detailed Explanation (5–10 bullet points)
+   - Understandable by a beginner with no prior knowledge.
    - Explain concept step-by-step.
    - Internal working if applicable.
    - Important rules, behaviors, limitations.
