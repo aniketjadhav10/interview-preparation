@@ -11,7 +11,7 @@ Answer must be practical, interview-focused, and easy to revise.
 ANSWER MUST CONTAIN ALL SECTIONS BELOW
 ---------------------------------------
 
-1. Short Direct Answer (4–5 lines)
+1. Short Direct Answer (3–4 lines)
    - Understandable by a beginner with no prior knowledge.
    - Simple language.
    - No jargon unless explained.
@@ -57,24 +57,18 @@ ANSWER MUST CONTAIN ALL SECTIONS BELOW
     - Keep table short and clear.
     - Example: interface vs abstract class.
 
-12. Diagram
-    - Suggest one clear pictorial diagram.
+12. generate a Diagram (Using nano banana)
     - Examples:
       - Flowchart
       - Object relationship
       - Lifecycle
       - Architecture
-    - Use image placeholder only.
 
-13. After providing the interview answer, always generate a professional infographic that summarizes the key points. Use a clean, modern layout (like a vertical list or a 3D isometric style). Ensure the infographic includes:
-
-A clear title.
-
-3–5 bullet points summarizing the 'winning' parts of the answer.
-
-Visual icons next to each point.
-
-Use a professional color palette (e.g., deep blues or teals)."
+13. After providing the interview answer, always generate a professional infographic that summarizes the key points. Use a clean, modern layout. Ensure the infographic includes:
+- Title
+- 3–5 bullet points summarizing the 'winning' parts of the answer.
+- Simple flow or diagram idea
+- Beginner-friendly revision layout
 
 ---------------------------------------
 OUTPUT FORMAT RULES (STRICT)
