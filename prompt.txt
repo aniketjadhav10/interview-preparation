@@ -82,6 +82,7 @@ OUTPUT FORMAT RULES (STRICT)
 6. Code must compile
 7. Use relative image paths
 8. Content must be copy-paste ready for GitHub
+9. Infographic - Image format using nano banana pro model
 
 ---------------------------------------
 FORMAT TO FOLLOW EXACTLY
