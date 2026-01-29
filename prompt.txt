@@ -57,14 +57,15 @@ ANSWER MUST CONTAIN ALL SECTIONS BELOW
     - Keep table short and clear.
     - Example: interface vs abstract class.
 
-12. generate a Diagram (Using nano banana)
+12. Diagram prompt (for nano banana)
     - Examples:
       - Flowchart
       - Object relationship
       - Lifecycle
       - Architecture
 
-13. After providing the interview answer, always generate a professional infographic that summarizes the key points. Use a clean, modern layout. Ensure the infographic includes:
+13. Infographic Content (for Nano Banana)
+- Provide structured infographic content including:
 - Title
 - 3–5 bullet points summarizing the 'winning' parts of the answer.
 - Simple flow or diagram idea
@@ -82,7 +83,6 @@ OUTPUT FORMAT RULES (STRICT)
 6. Code must compile
 7. Use relative image paths
 8. Content must be copy-paste ready for GitHub
-9. Infographic - Image format using nano banana pro model
 
 ---------------------------------------
 FORMAT TO FOLLOW EXACTLY
