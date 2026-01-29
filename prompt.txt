@@ -47,7 +47,7 @@ ANSWER MUST CONTAIN ALL SECTIONS BELOW
    - Mention whether it is thread-safe or not.
    - Explain briefly.
 
-9. Common Follow-Up Interview Questions
+9. Common Follow-Up Interview Questions with 2-3 line answer explanation in simple beginner-friendly 
    - 3–5 realistic follow-up questions interviewers ask.
 
 10. Mistakes Candidates Often Make
