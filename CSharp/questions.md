@@ -8,7 +8,7 @@
 
 ---
 <details>
-## Question 1: What is an immutable object? Why is string immutable? <a id="q1"></a>
+<summary> ## Question 1: What is an immutable object? Why is string immutable? <a id="q1"></a> </summary>
 
 ### Short Answer
 
