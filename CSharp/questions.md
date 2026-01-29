@@ -4,10 +4,10 @@
 | No | Question | Level |
 |----|----------|-------|
 | 1 | [What is an immutable object? Why is string immutable?](#q1) | Beginner |
-| 2 | [Garbage Collection](#q2) | Intermediate |
+| 2 | [C# Boxing and Unboxing](#q2) | Intermediate |
 
 ---
-
+<details>
 ## Question 1: What is an immutable object? Why is string immutable? <a id="q1"></a>
 
 ### Short Answer
@@ -129,8 +129,12 @@ Would you like me to explain **String Interning** in depth or provide a detailed
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/09872393-6111-4cc2-aaf2-96c4bf8df419" />
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/1841ccaa-5a1f-40dc-8ec5-3f88a7ba6571" /> 
+</details>
 
-# C# Boxing and Unboxing
+---
+
+<details>
+# Question 2: C# Boxing and Unboxing <a id="q2"></a>
 
 ## 1. Short Direct Answer
 
@@ -367,4 +371,4 @@ Stack -> (Boxing) -> Heap -> (Unboxing) -> Stack
 *   Use **Generics**! (e.g., `List<int>` instead of `ArrayList`).
 
 **Key Takeaway:** Avoid if possible, use Generics instead!
-
+</details>
