@@ -66,12 +66,15 @@ ANSWER MUST CONTAIN ALL SECTIONS BELOW
       - Architecture
     - Use image placeholder only.
 
-13. Infographic Content (for Nano Banana)
-    - Provide structured infographic content including:
-      - Title
-      - 4–6 key points
-      - Simple flow or diagram idea
-      - Beginner-friendly revision layout
+13. After providing the interview answer, always generate a professional infographic that summarizes the key points. Use a clean, modern layout (like a vertical list or a 3D isometric style). Ensure the infographic includes:
+
+A clear title.
+
+3–5 bullet points summarizing the 'winning' parts of the answer.
+
+Visual icons next to each point.
+
+Use a professional color palette (e.g., deep blues or teals)."
 
 ---------------------------------------
 OUTPUT FORMAT RULES (STRICT)
