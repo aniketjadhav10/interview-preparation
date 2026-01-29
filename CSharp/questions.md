@@ -1,4 +1,14 @@
-## Question 1: What is an immutable object? Why is string immutable?
+# C# Interview Questions
+
+## 📘 Index
+| No | Question | Level |
+|----|----------|-------|
+| 1 | [What is an immutable object? Why is string immutable?](#q1) | Beginner |
+| 2 | [Garbage Collection](#q2) | Intermediate |
+
+---
+
+## Question 1: What is an immutable object? Why is string immutable? <a id="q1"></a>
 
 ### Short Answer
 
