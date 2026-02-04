@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Delayed Gratification - Infographic Learning</title>
+
+<style>
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial;
+  background:#f4f8ff;
+}
+
+.hero{
+  background:linear-gradient(135deg,#6a11cb,#2575fc);
+  color:white;
+  padding:50px 20px;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+.hero p{
+  font-size:20px;
+  opacity:.9;
+}
+
+.infographic{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.step{
+  display:flex;
+  align-items:center;
+  margin-bottom:40px;
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.step:nth-child(even){
+  flex-direction:row-reverse;
+}
+
+.icon{
+  font-size:90px;
+  width:220px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#eef3ff;
+}
+
+.content{
+  padding:30px;
+  flex:1;
+}
+
+.content h2{
+  color:#2575fc;
+  margin-bottom:12px;
+}
+
+.badge{
+  display:inline-block;
+  background:#2575fc;
+  color:white;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+ul{
+  padding-left:18px;
+}
+
+li{
+  margin:8px 0;
+  font-size:18px;
+}
+
+.quiz-box{
+  background:#fff3cd;
+  border-radius:20px;
+  padding:30px;
+  margin-top:40px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.quiz-box button{
+  padding:12px 20px;
+  margin:8px;
+  border:none;
+  border-radius:12px;
+  font-size:16px;
+  background:#2575fc;
+  color:white;
+  cursor:pointer;
+}
+
+.correct{background:#28a745!important;}
+.wrong{background:#dc3545!important;}
+
+.footer{
+  text-align:center;
+  padding:30px;
+  color:#666;
+}
+
+@media(max-width:700px){
+  .step{flex-direction:column;}
+  .icon{width:100%;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>⏳ Delayed Gratification</h1>
+  <p>Waiting today brings bigger happiness tomorrow!</p>
+</div>
+
+<div class="infographic">
+
+  <div class="step">
+    <div class="icon">🍫</div>
+    <div class="content">
+      <span class="badge">Example 1</span>
+      <h2>Waiting for Treat</h2>
+      <ul>
+        <li>Don’t eat candy immediately</li>
+        <li>Wait for the right time</li>
+        <li>Enjoy more happiness later</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="icon">🎁</div>
+    <div class="content">
+      <span class="badge">Example 2</span>
+      <h2>Saving for Toy</h2>
+      <ul>
+        <li>Save small money daily</li>
+        <li>Buy bigger toy later</li>
+        <li>Learn patience and planning</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="icon">📚</div>
+    <div class="content">
+      <span class="badge">Example 3</span>
+      <h2>Work Before Play</h2>
+      <ul>
+        <li>Finish homework first</li>
+        <li>Play without worry</li>
+        <li>Good habits make success</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="quiz-box">
+    <h2>🧠 Quick Quiz</h2>
+    <p>What should you do before playing?</p>
+    <button onclick="check(this,'Play first')">Play first</button>
+    <button onclick="check(this,'Finish work first')">Finish work first</button>
+    <button onclick="check(this,'Cry')">Cry</button>
+    <button onclick="check(this,'Sleep')">Sleep</button>
+  </div>
+
+</div>
+
+<div class="footer">
+Learning patience builds a bright future 🌟
+</div>
+
+<script>
+function check(btn,value){
+  if(value==="Finish work first"){
+    btn.className="correct";
+    btn.innerText="✔ Correct!";
+  } else {
+    btn.className="wrong";
+    btn.innerText="✖ Try again";
+  }
+}
+</script>
+
+</body>
+</html>
